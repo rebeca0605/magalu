@@ -1,0 +1,39 @@
+:root{
+    --primary-color: #0086FF;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: var(--primary-color);
+    height: 180px;
+}
+
+.container-lista{
+    color: white;
+    display: flex;
+    gap: 25px;
+    font-size: 13px;
+    padding: 20px 360px;
+}
+
+.infos{
+    color: white;
+    display: flex;
+    gap: 25px;
+    font-size: 13px;
+}
